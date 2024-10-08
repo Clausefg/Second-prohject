@@ -1,0 +1,1696 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* a {
+  text-decoration: none;
+}
+
+.container header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+.container header h3 {
+  color: white;
+  margin-left: 1200px;
+}
+.container header h3:hover {
+  color: cornflowerblue;
+  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
+}
+.container header button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: 0px;
+  border: 0px;
+  background-color: transparent;
+  color: white;
+}
+.container .header {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  background-color: black;
+  gap: 17px;
+  padding-bottom: 20px;
+}
+.container .header h1::first-line {
+  color: cornflowerblue;
+  font-size: 50px;
+}
+.container .header h1 {
+  color: white;
+  padding-right: 559px;
+}
+.container .header a {
+  color: white;
+}
+.container .header a:hover {
+  color: cornflowerblue;
+  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
+}
+.container .card1 .card1-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  color: white;
+  background: url(/image/фон.png);
+}
+.container .card1 .card1-box h2 {
+  margin-top: 200px;
+}
+.container .card1 .card1-box h1 {
+  color: cornflowerblue;
+  font-size: 64px;
+}
+.container .card1 .card1-box button {
+  border: 0px;
+  background-color: ghostwhite;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 250px;
+}
+.container .card1 .card1-box button:hover {
+  background-color: gainsboro;
+  transition: all 0.3s ease-in;
+}
+.container .card1 .card1-box button:active {
+  background-color: cornflowerblue;
+  transition: all 0.1s ease-in;
+  color: white;
+}
+.container .card2 {
+  background-color: whitesmoke;
+}
+.container .card2 .card2-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.container .card2 .card2-box h3 {
+  font-weight: normal;
+}
+.container .card2 .card2-box .title {
+  text-align: center;
+  margin-top: 100px;
+}
+.container .card2 .card2-box .title h1 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+.container .card2 .card2-box .card2-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.container .card2 .card2-box .card2-1 .card2-box1 {
+  text-align: center;
+  border: 0px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.container .card2 .card2-box .card2-1 .card2-box2 {
+  text-align: center;
+  border: 0px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.container .card2 .card2-box .card2-1 .card2-box3 {
+  text-align: center;
+  border: 0px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.container .card2 .card2-box .card2-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.container .card2 .card2-box .card2-2 .card2-box4 {
+  text-align: center;
+  border: 0px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.container .card2 .card2-box .card2-2 .card2-box5 {
+  text-align: center;
+  border: 0px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.container .card2 .card2-box .card2-2 .card2-box6 {
+  text-align: center;
+  border: 0px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.container .card2 .card2-box button {
+  border: 0px;
+  background-color: gainsboro;
+  color: black;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+.container .card2 .card2-box button:hover {
+  background-color: gainsboro;
+  transition: all 0.3s ease-in;
+}
+.container .card2 .card2-box button:active {
+  background-color: cornflowerblue;
+  transition: all 0.1s ease-in;
+  color: white;
+}
+.container .card3 .card3-box {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+}
+.container .card3 .card3-box .card3-text h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.container .card3 .card3-box .card3-text h3 {
+  margin-top: 25px;
+  font-weight: normal;
+}
+.container .card3 .card3-box .buttons button {
+  margin-top: 30px;
+  border: 0px;
+  background-color: whitesmoke;
+  color: black;
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.container .card3 .card3-box .buttons button:hover {
+  background-color: gainsboro;
+  transition: all 0.3s ease-in;
+}
+.container .card3 .card3-box .buttons button:active {
+  background-color: cornflowerblue;
+  transition: all 0.1s ease-in;
+  color: white;
+}
+.container .card4 .card4-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .card4 .card4-box h3 {
+  font-weight: normal;
+}
+.container .card4 .card4-box .title2 {
+  text-align: center;
+  margin-top: 100px;
+}
+.container .card4 .card4-box .title2 h1 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+.container .card4 .card4-box .title2 h3 {
+  font-weight: normal;
+}
+.container .card4 .card4-box .card4-boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.container .card4 .card4-box .card4-boxs .card4-1 {
+  border: 0px;
+  width: 312px;
+  height: 440px;
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 0px 1px 3px 0px;
+}
+.container .card4 .card4-box .card4-boxs .card4-2 {
+  border: 0px;
+  width: 312px;
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 0px 1px 3px 0px;
+}
+.container .card4 .card4-box .card4-boxs .card4-3 {
+  border: 0px;
+  width: 312px;
+  height: 440px;
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 0px 1px 3px 0px;
+}
+.container .card5 {
+  background: url(/image/горы.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.container .card5 .card5-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.container .card5 .card5-box .title3 {
+  display: flex;
+  justify-content: center;
+  gap: 700px;
+}
+.container .card5 .card5-box .card5-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.container .card5 .card5-box .card5-1 h3 {
+  font-weight: normal;
+  margin-top: 20px;
+}
+.container .card5 .card5-box .card5-1 .nastya {
+  border: 0px;
+  background-color: whitesmoke;
+  width: 770px;
+  height: 220px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.container .card5 .card5-box .card5-1 .nastya .loginova {
+  display: flex;
+  gap: 25px;
+}
+.container .card5 .card5-box .card5-1 .nastya .loginova h2 {
+  margin-right: 300px;
+}
+.container .card5 .card5-box .card5-1 .nastya .loginova h2::first-line {
+  font-weight: normal;
+}
+.container .card5 .card5-box .card5-1 .makarov {
+  border: 0px;
+  background-color: whitesmoke;
+  width: 770px;
+  height: 230px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.container .card5 .card5-box .card5-1 .makarov .sergey {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.container .card5 .card5-box .card5-1 .makarov .sergey h2 {
+  margin-right: 280px;
+}
+.container .card5 .card5-box .card5-1 .makarov .sergey h2::first-line {
+  font-weight: normal;
+}
+.container .card5 .card5-box .card5-2 {
+  margin-left: 140px;
+  gap: 20px;
+}
+.container .card5 .card5-box .card5-2 button {
+  margin-top: 30px;
+  border: 0px;
+  background-color: whitesmoke;
+  color: black;
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.container .card5 .card5-box .card5-2 button:hover {
+  background-color: gainsboro;
+  transition: all 0.3s ease-in;
+}
+.container .card5 .card5-box .card5-2 button:active {
+  background-color: cornflowerblue;
+  transition: all 0.1s ease-in;
+  color: white;
+}
+.container .card6 .card6-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .card6 .card6-box h3 {
+  font-weight: normal;
+}
+.container .card6 .card6-box .title4 {
+  text-align: center;
+  margin-top: 100px;
+}
+.container .card6 .card6-box .title4 h1 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+.container .card6 .card6-box .title4 h3 {
+  font-weight: normal;
+}
+.container .card6 .card6-box .card6-boxs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.container .card6 .card6-box .card6-boxs h3 {
+  margin-top: 10px;
+}
+.container .card6 .card6-box .card6-boxs .card6-1 img {
+  width: 560px;
+}
+.container .card6 .card6-box .card6-boxs .card6-2 img {
+  width: 560px;
+}
+.container .card6 .card6-box .card6-boxs .card6-3 img {
+  width: 560px;
+}
+.container .card6 .card6-box button {
+  margin-left: 850px;
+  margin-top: 20px;
+  border: 0px;
+  background-color: whitesmoke;
+  color: black;
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.container .card6 .card6-box button:hover {
+  background-color: gainsboro;
+  transition: all 0.3s ease-in;
+}
+.container .card6 .card6-box button:active {
+  background-color: cornflowerblue;
+  transition: all 0.1s ease-in;
+  color: white;
+}
+.container .final {
+  background: rgb(34, 34, 34);
+  color: white;
+}
+.container .final a {
+  color: white;
+}
+.container .final .final-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+  padding-top: 40px;
+}
+.container .final .final-box .final1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.container .final .final-box .final1 h2::first-line {
+  color: cornflowerblue;
+  font-size: 40px;
+}
+.container .final .final-box .final1 h2 {
+  color: white;
+  margin-left: 350px;
+}
+.container .final .final-box .final1 h3 {
+  font-weight: normal;
+}
+.container .final .final-box .final2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.container .final .final-box .final2 .c1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .final .final-box .final2 .c1 .geo1 {
+  display: flex;
+  gap: 20px;
+}
+.container .final .final-box .final2 .c1 h3::first-line {
+  font-weight: normal;
+}
+.container .final .final-box .final2 .c1 .geo2 {
+  display: flex;
+  gap: 20px;
+}
+.container .final .final-box .final2 .c1 h3::first-line {
+  font-weight: normal;
+}
+.container .final .final-box .final2 .c1 .geo3 {
+  display: flex;
+  gap: 20px;
+}
+.container .final .final-box .final2 .c1 h3::first-line {
+  font-weight: normal;
+}
+.container .final .final-box .final2 .c2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .final .final-box .final2 .c2 a {
+  color: white;
+}
+.container .final .final-box .final2 .c2 a:hover {
+  color: cornflowerblue;
+  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
+}
+.container .final .final-box .final2 .c3 .alex .mini {
+  display: flex;
+  gap: 25px;
+}
+.container .final .final-box .final2 .c3 .alex .mini h3::first-line {
+  font-weight: normal;
+}
+.container .final .final-box .final2 .c3 .alex h4 {
+  font-weight: normal;
+  margin-top: 10px;
+}
+.container .final .final-box .final2 .c3 .alex button {
+  border: 0px;
+  background-color: whitesmoke;
+  color: black;
+  width: 230px;
+  height: 30px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.container .final .final-box .final2 .c3 .alex button:hover {
+  background-color: gainsboro;
+  transition: all 0.3s ease-in;
+}
+.container .final .final-box .final2 .c3 .alex button:active {
+  background-color: cornflowerblue;
+  transition: all 0.1s ease-in;
+  color: white;
+}
+.container .final .final-box .final3 {
+  display: flex;
+  gap: 600px;
+}
+.container .final .final-box .final3 h4 {
+  font-weight: normal;
+  padding-bottom: 25px;
+}
+@media (max-width: 447px) {
+  .container header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+  }
+  .container header h3 {
+    display: none;
+    color: white;
+    margin-left: 1200px;
+  }
+  .container header h3:hover {
+    color: cornflowerblue;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+  }
+  .container header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border: 0px;
+    border: 0px;
+    background-color: transparent;
+    color: white;
+  }
+  .container .header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: black;
+    gap: 17px;
+    padding-bottom: 20px;
+  }
+  .container .header h1::first-line {
+    color: cornflowerblue;
+    font-size: 30px;
+  }
+  .container .header h1 {
+    color: white;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+  .container .header a {
+    display: none;
+    color: white;
+  }
+  .container .header a:hover {
+    color: cornflowerblue;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+  }
+  .container .card1 .card1-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    background: url(/image/фон.png);
+  }
+  .container .card1 .card1-box h2 {
+    margin-top: 50px;
+  }
+  .container .card1 .card1-box h3 {
+    font-weight: normal;
+  }
+  .container .card1 .card1-box h1 {
+    color: cornflowerblue;
+    font-size: 40px;
+  }
+  .container .card1 .card1-box button {
+    border: 0px;
+    background-color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+  }
+  .container .card1 .card1-box button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card1 .card1-box button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card2 {
+    background-color: whitesmoke;
+  }
+  .container .card2 .card2-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .container .card2 .card2-box h3 {
+    font-weight: normal;
+  }
+  .container .card2 .card2-box .title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .container .card2 .card2-box .title h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: cornflowerblue;
+  }
+  .container .card2 .card2-box .card2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .container .card2 .card2-box .card2-1 .card2-box1 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-1 .card2-box2 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-1 .card2-box3 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+  }
+  .container .card2 .card2-box .card2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+  .container .card2 .card2-box .card2-2 .card2-box4 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-2 .card2-box5 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-2 .card2-box6 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box button {
+    border: 0px;
+    background-color: gainsboro;
+    color: black;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+  }
+  .container .card2 .card2-box button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card2 .card2-box button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card3 .card3-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    padding-bottom: 10px;
+  }
+  .container .card3 .card3-box img {
+    display: none;
+  }
+  .container .card3 .card3-box .card3-text {
+    margin-left: 10px;
+  }
+  .container .card3 .card3-box .card3-text h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .container .card3 .card3-box .card3-text h3 {
+    margin-top: 25px;
+    font-weight: normal;
+  }
+  .container .card3 .card3-box .buttons button {
+    border: 0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .container .card3 .card3-box .buttons button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card3 .card3-box .buttons button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card4 .card4-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card4 .card4-box h3 {
+    font-weight: normal;
+  }
+  .container .card4 .card4-box .title2 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .container .card4 .card4-box .title2 h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: cornflowerblue;
+  }
+  .container .card4 .card4-box .title2 h3 {
+    font-weight: normal;
+  }
+  .container .card4 .card4-box .card4-boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .container .card4 .card4-box .card4-boxs .card4-1 {
+    border: 0px;
+    width: 312px;
+    height: 440px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 1px 3px 0px;
+  }
+  .container .card4 .card4-box .card4-boxs .card4-2 {
+    border: 0px;
+    width: 312px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 1px 3px 0px;
+  }
+  .container .card4 .card4-box .card4-boxs .card4-3 {
+    border: 0px;
+    width: 312px;
+    height: 440px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 1px 3px 0px;
+  }
+  .container .card5 {
+    display: none;
+    background: url(/image/горы.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+  }
+  .container .card5 .card5-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .container .card5 .card5-box .title3 {
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+  }
+  .container .card5 .card5-box .card5-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .container .card5 .card5-box .card5-1 h3 {
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya {
+    border: 0px;
+    background-color: whitesmoke;
+    width: 770px;
+    height: 220px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya .loginova {
+    display: flex;
+    gap: 25px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya .loginova h2 {
+    margin-right: 300px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya .loginova h2::first-line {
+    font-weight: normal;
+  }
+  .container .card5 .card5-box .card5-1 .makarov {
+    border: 0px;
+    background-color: whitesmoke;
+    width: 770px;
+    height: 230px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .container .card5 .card5-box .card5-1 .makarov .sergey {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .container .card5 .card5-box .card5-1 .makarov .sergey h2 {
+    margin-right: 280px;
+  }
+  .container .card5 .card5-box .card5-1 .makarov .sergey h2::first-line {
+    font-weight: normal;
+  }
+  .container .card5 .card5-box .card5-2 {
+    margin-left: 140px;
+    gap: 20px;
+  }
+  .container .card5 .card5-box .card5-2 button {
+    margin-top: 30px;
+    border: 0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .container .card5 .card5-box .card5-2 button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card5 .card5-box .card5-2 button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card6 .card6-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card6 .card6-box h3 {
+    font-weight: normal;
+  }
+  .container .card6 .card6-box .title4 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .container .card6 .card6-box .title4 h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: cornflowerblue;
+  }
+  .container .card6 .card6-box .title4 h3 {
+    font-weight: normal;
+  }
+  .container .card6 .card6-box .card6-boxs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .container .card6 .card6-box .card6-boxs h2 {
+    margin-left: 10px;
+  }
+  .container .card6 .card6-box .card6-boxs h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .container .card6 .card6-box .card6-boxs .card6-1 {
+    display: none;
+  }
+  .container .card6 .card6-box .card6-boxs .card6-1 img {
+    width: 560px;
+  }
+  .container .card6 .card6-box .card6-boxs .card6-2 img {
+    width: 560px;
+  }
+  .container .card6 .card6-box .card6-boxs .card6-3 img {
+    width: 560px;
+  }
+  .container .card6 .card6-box button {
+    margin-left: 850px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .container .card6 .card6-box button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card6 .card6-box button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .final {
+    background: rgb(34, 34, 34);
+    color: white;
+  }
+  .container .final a {
+    color: white;
+  }
+  .container .final .final-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    padding-top: 40px;
+  }
+  .container .final .final-box .final1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .container .final .final-box .final1 h3 {
+    display: none;
+  }
+  .container .final .final-box .final1 h2::first-line {
+    color: cornflowerblue;
+    font-size: 40px;
+  }
+  .container .final .final-box .final1 h2 {
+    color: white;
+    margin-left: 10px;
+  }
+  .container .final .final-box .final1 h3 {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .container .final .final-box .final2 .c1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .container .final .final-box .final2 .c1 .geo1 {
+    display: flex;
+    gap: 20px;
+  }
+  .container .final .final-box .final2 .c1 h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c1 .geo2 {
+    display: flex;
+    gap: 20px;
+  }
+  .container .final .final-box .final2 .c1 h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c1 .geo3 {
+    display: flex;
+    gap: 20px;
+  }
+  .container .final .final-box .final2 .c1 h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c2 {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container .final .final-box .final2 .c2 a {
+    color: white;
+  }
+  .container .final .final-box .final2 .c2 a:hover {
+    color: cornflowerblue;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+  }
+  .container .final .final-box .final2 .c3 {
+    margin-left: 10px;
+  }
+  .container .final .final-box .final2 .c3 .alex .mini {
+    display: flex;
+    gap: 25px;
+  }
+  .container .final .final-box .final2 .c3 .alex .mini h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c3 .alex h4 {
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  .container .final .final-box .final2 .c3 .alex button {
+    border: 0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .container .final .final-box .final2 .c3 .alex button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .final .final-box .final2 .c3 .alex button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .final .final-box .final3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+  }
+  .container .final .final-box .final3 h4 {
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 447.1px) and (max-width: 769px) {
+  .container header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+  }
+  .container header h3 {
+    color: white;
+    margin-left: 250px;
+  }
+  .container header h3:hover {
+    color: cornflowerblue;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+  }
+  .container header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border: 0px;
+    border: 0px;
+    background-color: transparent;
+    color: white;
+  }
+  .container .header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: black;
+    gap: 17px;
+    padding-bottom: 20px;
+  }
+  .container .header h1::first-line {
+    color: cornflowerblue;
+    font-size: 50px;
+  }
+  .container .header h1 {
+    color: white;
+    padding-right: 559px;
+  }
+  .container .header a {
+    display: none;
+    color: white;
+  }
+  .container .header a:hover {
+    color: cornflowerblue;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+  }
+  .container .card1 .card1-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    background: url(/image/фон.png);
+  }
+  .container .card1 .card1-box h2 {
+    margin-top: 200px;
+  }
+  .container .card1 .card1-box h1 {
+    color: cornflowerblue;
+    font-size: 64px;
+  }
+  .container .card1 .card1-box button {
+    border: 0px;
+    background-color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 250px;
+  }
+  .container .card1 .card1-box button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card1 .card1-box button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card2 {
+    background-color: whitesmoke;
+  }
+  .container .card2 .card2-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .container .card2 .card2-box h3 {
+    font-weight: normal;
+  }
+  .container .card2 .card2-box .title {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .container .card2 .card2-box .title h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: cornflowerblue;
+  }
+  .container .card2 .card2-box .card2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  .container .card2 .card2-box .card2-1 .card2-box1 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-1 .card2-box2 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-1 .card2-box3 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  .container .card2 .card2-box .card2-2 .card2-box4 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-2 .card2-box5 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box .card2-2 .card2-box6 {
+    text-align: center;
+    border: 0px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .container .card2 .card2-box button {
+    border: 0px;
+    background-color: gainsboro;
+    color: black;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+  }
+  .container .card2 .card2-box button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card2 .card2-box button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card3 .card3-box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    padding-bottom: 10px;
+  }
+  .container .card3 .card3-box img {
+    display: none;
+  }
+  .container .card3 .card3-box .card3-text h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .container .card3 .card3-box .card3-text h3 {
+    margin-top: 25px;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  .container .card3 .card3-box .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .container .card3 .card3-box .buttons button {
+    margin-top: 30px;
+    border: 0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .container .card3 .card3-box .buttons button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card3 .card3-box .buttons button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card4 .card4-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card4 .card4-box h3 {
+    font-weight: normal;
+  }
+  .container .card4 .card4-box .title2 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .container .card4 .card4-box .title2 h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: cornflowerblue;
+  }
+  .container .card4 .card4-box .title2 h3 {
+    font-weight: normal;
+  }
+  .container .card4 .card4-box .card4-boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .container .card4 .card4-box .card4-boxs .card4-1 {
+    border: 0px;
+    width: 312px;
+    height: 440px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 1px 3px 0px;
+  }
+  .container .card4 .card4-box .card4-boxs .card4-2 {
+    border: 0px;
+    width: 312px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 1px 3px 0px;
+  }
+  .container .card4 .card4-box .card4-boxs .card4-3 {
+    border: 0px;
+    width: 312px;
+    height: 440px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 1px 3px 0px;
+  }
+  .container .card5 {
+    background: url(/image/горы.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+  }
+  .container .card5 .card5-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .container .card5 .card5-box .title3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: cornflowerblue;
+  }
+  .container .card5 .card5-box .title3 img {
+    display: none;
+  }
+  .container .card5 .card5-box .card5-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .container .card5 .card5-box .card5-1 h3 {
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya {
+    border: 0px;
+    background-color: whitesmoke;
+    width: 770px;
+    height: 220px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya .loginova {
+    display: flex;
+    gap: 25px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya .loginova h2 {
+    margin-right: 300px;
+  }
+  .container .card5 .card5-box .card5-1 .nastya .loginova h2::first-line {
+    font-weight: normal;
+  }
+  .container .card5 .card5-box .card5-1 .makarov {
+    border: 0px;
+    background-color: whitesmoke;
+    width: 770px;
+    height: 230px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .container .card5 .card5-box .card5-1 .makarov .sergey {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .container .card5 .card5-box .card5-1 .makarov .sergey h2 {
+    margin-right: 280px;
+  }
+  .container .card5 .card5-box .card5-1 .makarov .sergey h2::first-line {
+    font-weight: normal;
+  }
+  .container .card5 .card5-box .card5-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container .card5 .card5-box .card5-2 button {
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .container .card5 .card5-box .card5-2 button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card5 .card5-box .card5-2 button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .card6 .card6-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card6 .card6-box h3 {
+    font-weight: normal;
+  }
+  .container .card6 .card6-box .title4 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .container .card6 .card6-box .title4 h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: cornflowerblue;
+  }
+  .container .card6 .card6-box .title4 h3 {
+    font-weight: normal;
+  }
+  .container .card6 .card6-box .card6-boxs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .container .card6 .card6-box .card6-boxs h3 {
+    margin-top: 10px;
+  }
+  .container .card6 .card6-box .card6-boxs .card6-1 img {
+    width: 560px;
+  }
+  .container .card6 .card6-box .card6-boxs .card6-2 img {
+    width: 560px;
+  }
+  .container .card6 .card6-box .card6-boxs .card6-3 img {
+    width: 560px;
+  }
+  .container .card6 .card6-box button {
+    margin-left: 850px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .container .card6 .card6-box button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .card6 .card6-box button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .final {
+    background: rgb(34, 34, 34);
+    color: white;
+  }
+  .container .final a {
+    display: none;
+    color: white;
+  }
+  .container .final .final-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+  }
+  .container .final .final-box .final1 {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  .container .final .final-box .final1 h2::first-line {
+    color: cornflowerblue;
+    font-size: 40px;
+  }
+  .container .final .final-box .final1 h2 {
+    color: white;
+    margin-left: 10px;
+  }
+  .container .final .final-box .final1 h3 {
+    display: none;
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
+  .container .final .final-box .final2 .c1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .container .final .final-box .final2 .c1 .geo1 {
+    display: flex;
+    gap: 20px;
+  }
+  .container .final .final-box .final2 .c1 h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c1 .geo2 {
+    display: flex;
+    gap: 20px;
+  }
+  .container .final .final-box .final2 .c1 h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c1 .geo3 {
+    display: flex;
+    gap: 20px;
+  }
+  .container .final .final-box .final2 .c1 h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container .final .final-box .final2 .c2 a {
+    color: white;
+  }
+  .container .final .final-box .final2 .c2 a:hover {
+    color: cornflowerblue;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+  }
+  .container .final .final-box .final2 .c3 .alex .mini {
+    display: flex;
+    gap: 25px;
+  }
+  .container .final .final-box .final2 .c3 .alex .mini h3::first-line {
+    font-weight: normal;
+  }
+  .container .final .final-box .final2 .c3 .alex h4 {
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  .container .final .final-box .final2 .c3 .alex button {
+    border: 0px;
+    background-color: whitesmoke;
+    color: black;
+    width: 230px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .container .final .final-box .final2 .c3 .alex button:hover {
+    background-color: gainsboro;
+    transition: all 0.3s ease-in;
+  }
+  .container .final .final-box .final2 .c3 .alex button:active {
+    background-color: cornflowerblue;
+    transition: all 0.1s ease-in;
+    color: white;
+  }
+  .container .final .final-box .final3 {
+    display: flex;
+    gap: 100px;
+  }
+  .container .final .final-box .final3 h4 {
+    font-weight: normal;
+    padding-bottom: 25px;
+    color: gray;
+  }
+}/*# sourceMappingURL=style.css.map */
